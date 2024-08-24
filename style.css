@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background-image: url(img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+form{
+    border: 1px solid black ;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    button{
+        padding: 10px 20px;
+        border-radius: 10px;
+        background-color: rgb(27, 27, 27);
+        color: white;
+    }
+    input{
+        height: 30px;
+    }
+    label{
+        font-size: 1.5rem;
+    }
+}
